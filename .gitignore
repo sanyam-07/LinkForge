@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Environment Variables & Secrets
+.env
+.env.*
+!.env.example
+
+# Build Outputs
+dist/
+build/
+out/
+.vite/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+*.log
+
+# IDE & Editor Settings
+.vscode/
+.idea/
+*.swp
+*.swo
